@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Docker Is Fun <title>
+    </head>
+<body>
+
+     <h1><span class="red">Hello, today's date & time is:</span>
+     <p><span id='date-time></span></p>
+     <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleString();
+     </script>
+     </h1>
+  </body>
+</html>
